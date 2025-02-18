@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "cim": "http://iec.ch/TC57/CIM/CIM100#",
+    "md": "http://iec.ch/TC57/61970-552/ModelDescription/1#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
+  "@graph": [
+    {
+      "@id": "urn:uuid:27613d44-28e2-4aeb-a96b-f4a49591d629",
+      "@type": "cim:Organisation",
+      "cim:IdentifiedObject.name": "Siemens Energy",
+      "cim:Organisation.city": "Erlangen",
+      "cim:Organisation.country": "Germany",
+      "cim:Organisation.eMail": "info@siemens-energy.com",
+      "cim:Organisation.phone": "+49 911 6505 0",
+      "cim:Organisation.postalCode": "91058",
+      "cim:Organisation.streetAddress": "Freyeslebenstr. 1"
+    },
+    {
+      "@id": "urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad",
+      "@type": "md:FullModel",
+      "md:Model.created": "2025-02-14T12:00:00Z",
+      "md:Model.description": "Asset Catalogue (AC) from Siemens Energy included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.",
+      "md:Model.modelingAuthoritySet": "http://www.Statnett.no/Enterprise/Nordic44",
+      "md:Model.profile": "http://iec.ch/TC57/CIM/AssetCatalogue/2/0",
+      "md:Model.scenarioTime": "2015-12-31T23:00:00Z",
+      "md:Model.version": "1"
+    },
+    {
+      "@id": "urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3",
+      "@type": "cim:Manufacturer",
+      "cim:IdentifiedObject.name": "Siemens Energy Manufacture",
+      "cim:OrganisationRole.Organisation": {
+        "@id": "urn:uuid:27613d44-28e2-4aeb-a96b-f4a49591d629"
+      }
+    },
+    {
+      "@id": "urn:uuid:bec74e51-00a7-471c-8573-a66812a7bd6d",
+      "@type": "cim:ProductAssetModel",
+      "cim:IdentifiedObject.name": "PSM B Cable",
+      "cim:ProductAssetModel.AssetInfo": {
+        "@id": "urn:uuid:971ee291-79f2-43b2-a4ed-a45f39572079"
+      },
+      "cim:ProductAssetModel.Manufacturer": {
+        "@id": "urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3"
+      },
+      "cim:ProductAssetModel.catalogueNumber": "006",
+      "cim:ProductAssetModel.modelNumber": "B CA001",
+      "cim:ProductAssetModel.usageKind": {
+        "@id": "cim:AssetModelUsageKind.transmission"
+      }
+    },
+    {
+      "@id": "urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68",
+      "@type": "cim:ProductAssetModel",
+      "cim:IdentifiedObject.name": "PSM B Single-Phase Breaker",
+      "cim:ProductAssetModel.AssetInfo": {
+        "@id": "urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a"
+      },
+      "cim:ProductAssetModel.Manufacturer": {
+        "@id": "urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3"
+      },
+      "cim:ProductAssetModel.catalogueNumber": "002",
+      "cim:ProductAssetModel.modelNumber": "B SPB001"
+    },
+    {
+      "@id": "urn:uuid:971ee291-79f2-43b2-a4ed-a45f39572079",
+      "@type": "cim:CableInfo",
+      "cim:CableInfo.shieldMaterial": {
+        "@id": "cim:CableShieldMaterialKind.cooper"
+      },
+      "cim:IdentifiedObject.name": "CI Cable",
+      "cim:WireInfo.gmr": "1000",
+      "cim:WireInfo.insulated": "true",
+      "cim:WireInfo.insulationMaterial": {
+        "@id": "cim:WireInsulationKind.treeRetardantCrosslinkedPolyethylene"
+      },
+      "cim:WireInfo.material": {
+        "@id": "cim:WireMaterialKind.aluminum"
+      },
+      "cim:WireInfo.nominalTemperature": "20"
+    },
+    {
+      "@id": "urn:uuid:b9029228-6016-4f86-ac21-6c54657ee9c6",
+      "@type": "cim:ProductAssetModel",
+      "cim:IdentifiedObject.name": "PSM B Disconnecter",
+      "cim:ProductAssetModel.AssetInfo": {
+        "@id": "urn:uuid:cb50c3ea-5598-46dd-97c7-ce0b824c498b"
+      },
+      "cim:ProductAssetModel.Manufacturer": {
+        "@id": "urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3"
+      },
+      "cim:ProductAssetModel.catalogueNumber": "004",
+      "cim:ProductAssetModel.modelNumber": "B D001"
+    }
+  ]
+}
