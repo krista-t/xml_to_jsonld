@@ -1,0 +1,672 @@
+[
+  {
+    "@id": "urn:uuid:7f618ac4-d4da-11e7-9296-cec278b6b50a",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#OverheadWireInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "OHWI Overhead Wire"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#WireInfo.rAC25": [
+      {
+        "@value": "0.672"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#WireInfo.rAC75": [
+      {
+        "@value": "0.805"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#WireInfo.rDC20": [
+      {
+        "@value": "0.659"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "PAM A Power Transformer"
+      },
+      {
+        "@value": "PAM A ShuntCompensator"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.AssetInfo": [
+      {
+        "@id": "urn:uuid:9eb4e906-d4f4-11e7-9296-cec278b6b50a"
+      },
+      {
+        "@id": "urn:uuid:d9a0ead9-f67e-4317-a128-631fe9f68177"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.Manufacturer": [
+      {
+        "@id": "urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.catalogueNumber": [
+      {
+        "@value": "006"
+      },
+      {
+        "@value": "008"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.modelNumber": [
+      {
+        "@value": "A PTI001"
+      },
+      {
+        "@value": "A LSC001"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.usageKind": [
+      {
+        "@id": "http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:d9a0ead9-f67e-4317-a128-631fe9f68177",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#ShuntCompensatorInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#AssetInfo.ProductAssetModel": [
+      {
+        "@id": "urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "SH Shunt Compensator"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ShuntCompensatorInfo.maxPowerLoss": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ShuntCompensatorInfo.ratedCurrent": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ShuntCompensatorInfo.ratedReactivePower": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ShuntCompensatorInfo.ratedVoltage": [
+      {
+        "@value": "300"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:4ffa629d-a671-4bd1-b4bb-c69c8fd2511d",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "PAM A BusbarSection"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.AssetInfo": [
+      {
+        "@id": "urn:uuid:628b66ae-c9c7-4191-89c0-82d95f26319e"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.Manufacturer": [
+      {
+        "@id": "urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.catalogueNumber": [
+      {
+        "@value": "009"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.modelNumber": [
+      {
+        "@value": "A BS001"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.usageKind": [
+      {
+        "@id": "http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:9eb4e906-d4f4-11e7-9296-cec278b6b50a",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#PowerTransformerInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#AssetInfo.ProductAssetModel": [
+      {
+        "@id": "urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "PTI Power Transformer"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:6fca60c7-c0bc-4ee9-87c4-7a2ecacd552f",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "PSM A Single-Phase Breaker"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.AssetInfo": [
+      {
+        "@id": "urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.Manufacturer": [
+      {
+        "@id": "urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.catalogueNumber": [
+      {
+        "@value": "001"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.modelNumber": [
+      {
+        "@value": "A SPB001"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#Manufacturer"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "Schneider Electric Manufacture"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#OrganisationRole.Organisation": [
+      {
+        "@id": "urn:uuid:b21ec013-41dc-4cac-ae79-927dfe45e51f"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20",
+    "@type": [
+      "http://iec.ch/TC57/61970-552/ModelDescription/1#FullModel"
+    ],
+    "http://iec.ch/TC57/61970-552/ModelDescription/1#Model.created": [
+      {
+        "@value": "2025-02-14T12:00:00Z"
+      }
+    ],
+    "http://iec.ch/TC57/61970-552/ModelDescription/1#Model.description": [
+      {
+        "@value": "Asset Catalogue (AC) from Schneider included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      }
+    ],
+    "http://iec.ch/TC57/61970-552/ModelDescription/1#Model.modelingAuthoritySet": [
+      {
+        "@value": "http://www.Statnett.no/Enterprise/Nordic44"
+      }
+    ],
+    "http://iec.ch/TC57/61970-552/ModelDescription/1#Model.profile": [
+      {
+        "@value": "http://iec.ch/TC57/CIM/AssetCatalogue/2/0"
+      }
+    ],
+    "http://iec.ch/TC57/61970-552/ModelDescription/1#Model.scenarioTime": [
+      {
+        "@value": "2015-12-31T23:00:00Z"
+      }
+    ],
+    "http://iec.ch/TC57/61970-552/ModelDescription/1#Model.version": [
+      {
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:e82a738a-d3d5-424a-8ef3-8492aa10e287",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "PSM A Disconnecter"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.AssetInfo": [
+      {
+        "@id": "urn:uuid:cb50c3ea-5598-46dd-97c7-ce0b824c498b"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.Manufacturer": [
+      {
+        "@id": "urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.catalogueNumber": [
+      {
+        "@value": "003"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.modelNumber": [
+      {
+        "@value": "A D001"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:bdeebee8-9178-40a1-993d-571c47209f4d",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "TEI S Transformer End Secondary"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.TransformerTankInfo": [
+      {
+        "@id": "urn:uuid:3ac55233-7ca0-4b39-afc1-d6f777fc3c0e"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.connectionKind": [
+      {
+        "@id": "http://iec.ch/TC57/CIM/CIM100#WindingConnection.Y"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.endNumber": [
+      {
+        "@value": "2"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.phaseAngleClock": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.r": [
+      {
+        "@value": "0.14112"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.ratedS": [
+      {
+        "@value": "1000"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.ratedU": [
+      {
+        "@value": "420"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:b21ec013-41dc-4cac-ae79-927dfe45e51f",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#Organisation"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "Schneider Electric"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#Organisation.city": [
+      {
+        "@value": "Rueil-Malmaison"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#Organisation.country": [
+      {
+        "@value": "France"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#Organisation.eMail": [
+      {
+        "@value": "info@schneider-electric.com"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#Organisation.phone": [
+      {
+        "@value": "+33 1 41 29 70 00"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#Organisation.postalCode": [
+      {
+        "@value": "92500"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#Organisation.streetAddress": [
+      {
+        "@value": "35 Rue Joseph Monier"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:82d61e6f-bf85-4aa9-8276-457dbcdb5198",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#SwitchInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "SI Multi-Phase Breaker"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.breakingCapacity": [
+      {
+        "@value": "1950"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.isSinglePhase": [
+      {
+        "@value": "true"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.isUnganged": [
+      {
+        "@value": "false"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.ratedCurrent": [
+      {
+        "@value": "2000"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.ratedVoltage": [
+      {
+        "@value": "300"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:be53e1d0-1147-44af-b624-77c9ff829bb4",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#TransformerTankInfo",
+      "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "TTI Transformer Tank"
+      },
+      {
+        "@value": "TEI P Transformer End Primary"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.TransformerTankInfo": [
+      {
+        "@id": "urn:uuid:3ac55233-7ca0-4b39-afc1-d6f777fc3c0e"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.connectionKind": [
+      {
+        "@id": "http://iec.ch/TC57/CIM/CIM100#WindingConnection.Y"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.endNumber": [
+      {
+        "@value": "2"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.phaseAngleClock": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.r": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.ratedS": [
+      {
+        "@value": "1000"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerEndInfo.ratedU": [
+      {
+        "@value": "300"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TransformerTankInfo.PowerTransformerInfo": [
+      {
+        "@id": "urn:uuid:9eb4e906-d4f4-11e7-9296-cec278b6b50a"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:628b66ae-c9c7-4191-89c0-82d95f26319e",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#BusbarSectionInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#AssetInfo.ProductAssetModel": [
+      {
+        "@id": "urn:uuid:4ffa629d-a671-4bd1-b4bb-c69c8fd2511d"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "SH BusbarSection"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ShuntCompensatorInfo.ratedCurrent": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ShuntCompensatorInfo.ratedVoltage": [
+      {
+        "@value": "300"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:66c4bc79-0e4c-420d-9f9a-f64c81fd2254",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#TapChangerInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#AssetInfo.ProductAssetModel": [
+      {
+        "@id": "urn:uuid:e673fe8d-62a3-4e28-819b-c9e94bfcae38"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "PC Tap Changer"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TapChangerInfo.highStep": [
+      {
+        "@value": "33"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TapChangerInfo.lowStep": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TapChangerInfo.neutralStep": [
+      {
+        "@value": "17"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TapChangerInfo.neutralU": [
+      {
+        "@value": "300"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TapChangerInfo.ratedApparentPower": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TapChangerInfo.ratedCurrent": [
+      {
+        "@value": "0"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TapChangerInfo.ratedVoltage": [
+      {
+        "@value": "300"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#TapChangerInfo.stepVoltageIncrement": [
+      {
+        "@value": "2.5"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:cb50c3ea-5598-46dd-97c7-ce0b824c498b",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#SwitchInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "SI Disconnecter"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.isSinglePhase": [
+      {
+        "@value": "false"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.ratedCurrent": [
+      {
+        "@value": "2000"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.ratedVoltage": [
+      {
+        "@value": "300"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#SwitchInfo"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "SI Single-Phase Breaker"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.breakingCapacity": [
+      {
+        "@value": "1950"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.isSinglePhase": [
+      {
+        "@value": "true"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.isUnganged": [
+      {
+        "@value": "true"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.ratedCurrent": [
+      {
+        "@value": "2000"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#SwitchInfo.ratedVoltage": [
+      {
+        "@value": "300"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:5521c75f-e6f1-4a7d-b37d-b2b14b75c518",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "PSM A Overhead Wire"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.AssetInfo": [
+      {
+        "@id": "urn:uuid:7f618ac4-d4da-11e7-9296-cec278b6b50a"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.Manufacturer": [
+      {
+        "@id": "urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.catalogueNumber": [
+      {
+        "@value": "005"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.modelNumber": [
+      {
+        "@value": "A OHW001"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.usageKind": [
+      {
+        "@id": "http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"
+      }
+    ]
+  },
+  {
+    "@id": "urn:uuid:e673fe8d-62a3-4e28-819b-c9e94bfcae38",
+    "@type": [
+      "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel"
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#IdentifiedObject.name": [
+      {
+        "@value": "PAM A Tap Changer"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.AssetInfo": [
+      {
+        "@id": "urn:uuid:66c4bc79-0e4c-420d-9f9a-f64c81fd2254"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.Manufacturer": [
+      {
+        "@id": "urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.catalogueNumber": [
+      {
+        "@value": "007"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.modelNumber": [
+      {
+        "@value": "A TC001"
+      }
+    ],
+    "http://iec.ch/TC57/CIM/CIM100#ProductAssetModel.usageKind": [
+      {
+        "@id": "http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"
+      }
+    ]
+  }
+]
